@@ -1,0 +1,33 @@
+.sci-react-tabs {
+    display: flex;
+    flex-direction: column;
+
+    > .tabs {
+        flex: 0 0 auto;
+
+        display: flex;
+        flex-direction: row;
+        overflow-y: auto;
+
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+
+        > .tab-item {
+            flex: 0 0 auto;
+            
+            &.selected {
+            }
+        }
+    }
+    > .contents {
+        flex: 0 0 auto;
+
+        >.content {
+            display: none;
+        }
+        >.visible {
+            display: inherit;
+        }
+    }
+}
