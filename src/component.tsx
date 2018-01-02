@@ -57,7 +57,7 @@ export class Tabs extends React.Component<ITabsProps, ITabsState> {
         for (let tabIndex = 0; tabIndex < this.props.tabs.length; tabIndex++) {
             let tab = this.props.tabs[tabIndex];
             let className = classnames("tab-item", { "selected": tabIndex === this.state.selectedTabIndex });
-            tabs.push(<li className={className} key={tabIndex}><UnstyledButton className="tab-button" onClick={this.getOnTabClick(tabIndex)}>{tab.header}</UnstyledButton></li>);
+            tabs.push(<li className={className} key={tabIndex}><UnstyledButton isBaseStylesDisabled={this.props.isBaseStylesDisabled} className="tab-button" onClick={this.getOnTabClick(tabIndex)}>{tab.header}</UnstyledButton></li>);
         }
 
         return (<ul className="tabs">{tabs}</ul>);

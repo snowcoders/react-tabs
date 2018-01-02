@@ -1,6 +1,6 @@
 {
   "name": "@snowcoders/react-tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component that uses tabs to navigate between different sections",
   "private": false,
   "repository": "https://github.com/snowcoders/react-tabs",
