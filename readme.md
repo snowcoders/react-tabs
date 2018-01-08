@@ -1,3 +1,6 @@
+[![npm (scoped)](https://img.shields.io/npm/v/@snowcoders/react-tabs.svg)](https://www.npmjs.com/package/@snowcoders/react-tabs) 
+[![CircleCI branch](https://img.shields.io/circleci/project/github/snowcoders/react-tabs.svg)](https://circleci.com/gh/snowcoders/react-tabs)
+
 # Use it
 `npm install --save @snowcoders/react-tabs save-prefix ~` 
 
