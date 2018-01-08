@@ -92,7 +92,7 @@ export class Tabs extends React.Component<ITabsProps, ITabsState> {
             throw new Error("@snowcoders/react-tabs - component can either be controled (props.tabIndex) or uncontroled (props.defaultTabIndex) but not both");
         }
         if (oldProps != null) {
-            if (oldProps.defaultTabIndex != null && this.props.defaultTabIndex == null &&
+            if (oldProps.defaultTabIndex != null && this.props.defaultTabIndex == null ||
                 oldProps.tabIndex != null && this.props.tabIndex == null) {
                 throw new Error("@snowcoders/react-tabs - component cannot switch between uncontrolled and controlled component after mounting");
             }

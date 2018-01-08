@@ -1,5 +1,5 @@
 .vscode/**
-src/**
+coverage/**
 .gitignore
 package-lock.json
 tsconfig.json
