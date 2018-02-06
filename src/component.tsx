@@ -45,7 +45,7 @@ export class Tabs extends React.Component<ITabsProps, ITabsState> {
                 <div className="contents">
                     {this.props.tabs.map((value, index) => {
                         let className = classnames("content", { "visible": index === this.state.selectedTabIndex });
-                        return (<div className={className}>{value.content}</div>);
+                        return (<div key={index} className={className}>{value.content}</div>);
                     })}
                 </div>
             </ div>
